@@ -1,0 +1,12 @@
+{
+  "General":{
+	"DbPathOverride":"",
+	"Tribelimit":12,
+	"SlotCooldown":24
+  },
+  "Messages":{
+    "MessageTextSize":
+	"SuppressPlayerJoinTribeMessage":"The Tribe you like to join does not have a free player spot",
+    "SuppressMergeTribeMessage":"The Tribe you like to merge with does not have enough player spots"
+  }
+}
