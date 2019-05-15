@@ -1,18 +1,20 @@
 {
   "General":{
-	"DbPathOverride":"",
-	"Tribelimit":12,
-	"SlotCooldown":24
+    "DbPathOverride":"",
+    "SlotCooldown": 24,
+    "MessageTextSize": 1.4,
+    "MessageDisplayDelay": 10
   },
   "Messages":{
     "MessageTextSize":1.4,
-	"SuppressPlayerJoinTribeMessage":"The Tribe you like to join does not have a free player spot",
+    "SuppressPlayerJoinTribeMessage":"The Tribe you like to join does not have a free player spot",
     "SuppressMergeTribeMessage":"The Tribe you like to merge with does not have enough free player spots",
-	"CommandDisplaySlotsMessage":"Currently there are {} on cooldown and not usable for tribe invitations",
-	"CommandDisplaySlotsMessageSlotCooldown":"Slot {} again usable in {} hours, {} minutes, {} secounds"
+    "CommandDisplaySlotsMessage":"Currently there are {} on cooldown and not usable for tribe invitations",
+    "CommandDisplaySlotsMessageSlotCooldown":"Slot {} again usable in {} hours, {} minutes, {} secounds"
   },
     "Commands":{
-	"CommandPrefix":"/",
+    "CommandPrefix":"/",
     "CommandDisplaySlots":"SlotsCooldown"
   }
 }
+
