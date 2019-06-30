@@ -2,11 +2,14 @@ cmake_minimum_required (VERSION 3.8)
 
 option(TEST "Test" OFF)
 
-SET (PATH_ARK_API1 "C:/Users/Matth/Documents/arkplugins/ark-api")
-SET (ProjectName "TribeSlotCooldown")
+#SET (PATH_ARK_API "C:/Users/Matth/Documents/arkplugins/ark-api")
+
 
 
 project (${ProjectName} )
+
+message(${ProjectName})
+
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W3")
 SET (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -lglapi")
@@ -30,8 +33,8 @@ add_library(${ProjectName} SHARED )
 
 add_library(ark_api STATIC IMPORTED)
 set_target_properties(ark_api PROPERTIES
-  IMPORTED_LOCATION ${PATH_ARK_API1}/out_lib/ArkApi.lib
-  INTERFACE_INCLUDE_DIRECTORIES ${PATH_ARK_API1}/version/Core/Public
+  IMPORTED_LOCATION ${PATH_ARK_API}/out_lib/ArkApi.lib
+  INTERFACE_INCLUDE_DIRECTORIES ${PATH_ARK_API}/version/Core/Public
 )
 
 
