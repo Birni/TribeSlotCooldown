@@ -14,7 +14,7 @@ set ProjectName=TribeSlotCooldown
 REM ========================================================
 REM configure description
 REM ========================================================
-set Description=Cooldown for playerslots in tribes 
+set Description=Cooldown for playerslots of tribes 
 
 REM ========================================================
 REM configure Version
